@@ -37,35 +37,22 @@
 #
 ###############################################################################
 
+# --------------------------------------------------------------- #
+# --- Adapt the input variables below according to your needs --- #
+# --------------------------------------------------------------- #
 
-# --- Adapt the input variables according to your needs --- #
-
-# Mandatory inputs (Ben)
+# Mandatory inputs
 my $albumdepthlevel   = 1; # folder level below the source folder used to generate albums
 my $source_folder     = "/Volumes/Data SSD/Ben/Bilder/Events"; # Levels 1 # "/Volumes/Data SSD/Steffi/Fotos"; # Levels 2 # absolut root folder where all your picture are, finish without slash
 my $target_folder     = "/Applications/Fhem/www/picgal"; # absolut target folder of your webserver. SMB mount the folder in case you don't run the scripy on your server. In this folder a folder with your gallery name will be generate and a gallery_name.html to load the page.
-my $gallery_name_long = "Pic Gallery Ben"; # name of your gallery
-my $googleapikey      = "AIzaSyAG0k2MdbLR-SWsqtXgMTPPVilZwEjvSPU";
+my $gallery_name_long = "Pic Gallery"; # name of your gallery
+my $googleapikey      = "YOURKEYHERE"; # insert your google API key here to enable the google maps feature
 my $uicolor           = boy; # choose between boy or girl
 
-my $fhemreporting     = on; # choose between on or off
+my $fhemreporting     = off; # choose between on or off
 my $fhemplpath        = "/Applications/Fhem/fhem.pl";
 my $fhemtelnetport    = 7072;
 my $fhemdummyname     = "PicGalleryStat";
-
-
-# Mandatory inputs (Steffi)
-#my $albumdepthlevel   = 2; # folder level below the source folder used to generate albums
-#my $source_folder     = "/Volumes/Data SSD/Steffi/Fotos"; # Levels 2 # "/Volumes/Data SSD/Ben/Bilder/Events"; # Levels 1 # absolut root folder where all your picture are, finish without slash
-#my $target_folder     = "/Applications/Fhem/www/picgal"; # absolut target folder of your webserver. SMB mount the folder in case you don't run the scripy on your server. In this folder a folder with your gallery name will be generate and a gallery_name.html to load the page.
-#my $gallery_name_long = "Pic Gallery Steffi"; # "Pic Gallery Ben"; # name of your gallery
-#my $googleapikey      = "AIzaSyAG0k2MdbLR-SWsqtXgMTPPVilZwEjvSPU";
-#my $uicolor           = girl; # choose between boy or girl
-
-#my $fhemreporting     = on; # choose between on or off
-#my $fhemplpath        = "/Applications/Fhem/fhem.pl";
-#my $fhemtelnetport    = 7072;
-#my $fhemdummyname     = "PicGalleryStat";
 
 # ------------------------------------------------------------------------------ #
 # --- Start of scrip here, don't change if you don't know what you are doing --- #
