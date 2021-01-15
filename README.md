@@ -1,5 +1,5 @@
 # picgallery
-A browser based picture gallery for all your pictures in your archive
+<b>A browser based picture gallery for all your pictures in your archive</b>
 
 For years I am collecting my pictures in a simple folder structure where each folder represent one event or album. I was always looking for a tool to look at my pictures quickly on multiple devices, maybe being even able to take them with me without the hurdle to copy them every where or upload all of the to a cloud.
 
