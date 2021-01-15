@@ -1,0 +1,305 @@
+/*  PiGallery default CSS by Benjamin Neunstoecklin under MIT licence  */
+/*  Copyright (c) 2020-2021 Benjamin Neunstoecklin                     */
+
+
+/*  #0499E5  -  note for me on color for boys  */
+/*  #FF0090  -  note for me on color for girls */
+
+html {                             width: 100%; margin: 0; padding: 0; padding: env(safe-area-inset); }
+body { background-color: #0499E5;  width: 100%; margin: 0; padding: 0; }
+
+pagehead img {
+  width: auto;
+  height: 120px;
+}
+
+pagehead {
+  box-sizing: border-box;
+  padding: 50px;
+  display: block;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Brush Script MT", cursive;
+}
+
+.inputback {
+  padding: 0px 20px 20px 20px;
+}
+
+input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-color: #666;
+  border-radius: 50px;
+  outline: none;
+  font-size: 18px;
+  font-family: arial;
+  text-align: center;
+  margin: auto;  /* to centre box */
+}
+
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+input:focus{
+    border-color: #0499E5;
+}
+
+.listbackg {
+  background-color: white;
+}
+
+.collapsible {
+  box-sizing: border-box;
+  display: block;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 1px 0px 1px 0px;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-family: arial;
+  z-index: 1;
+}
+.small {
+  color: white;
+  font-size: 10px;
+  font-family: arial;
+}
+.google {
+  background-color: #666;
+}
+.odd {
+  background-color: #888;
+}
+.even {
+  background-color: #666;
+}
+.active, .collapsible:hover {
+  background-color: #222C;
+}
+
+.my-gallery {
+  width: 100%;
+  margin: auto;
+}
+.my-gallery img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.my-gallery figure {
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 1px;
+  border: 0px;
+  margin: 0px;
+  height: 122px;
+  width: 122px;
+}
+
+@media only screen and (min-width: calc(140px * 3)) and (max-width: calc(140px * 4)) {
+    .my-gallery figure {
+      height: calc(100vw / 4);
+      width: calc(100vw / 4);
+  }
+}
+@media only screen and (min-width: calc(140px * 4)) and (max-width: calc(140px * 5)) {
+    .my-gallery figure {
+      height: calc(100vw / 5);
+      width: calc(100vw / 5);
+  }
+}
+@media only screen and (min-width: calc(140px * 5)) and (max-width: calc(140px * 6)) {
+    .my-gallery figure {
+      height: calc(100vw / 6);
+      width: calc(100vw / 6);
+  }
+}
+@media only screen and (min-width: calc(140px * 6)) and (max-width: calc(140px * 7)) {
+    .my-gallery figure {
+      height: calc(100vw / 7);
+      width: calc(100vw / 7);
+  }
+}
+@media only screen and (min-width: calc(140px * 7)) and (max-width: calc(140px * 8)) {
+    .my-gallery figure {
+      height: calc(100vw / 8);
+      width: calc(100vw / 8);
+  }
+}
+@media only screen and (min-width: calc(140px * 8)) and (max-width: calc(140px * 9)) {
+    .my-gallery figure {
+      height: calc(100vw / 9);
+      width: calc(100vw / 9);
+  }
+}
+@media only screen and (min-width: calc(140px * 9)) and (max-width: calc(140px * 10)) {
+    .my-gallery figure {
+      height: calc(100vw / 10);
+      width: calc(100vw / 10);
+  }
+}
+@media only screen and (min-width: calc(140px * 10)) and (max-width: calc(140px * 11)) {
+    .my-gallery figure {
+      height: calc(100vw / 11);
+      width: calc(100vw / 11);
+  }
+}
+@media only screen and (min-width: calc(140px * 11)) and (max-width: calc(140px * 12)) {
+    .my-gallery figure {
+      height: calc(100vw / 12);
+      width: calc(100vw / 12);
+  }
+}
+@media only screen and (min-width: calc(140px * 12)) and (max-width: calc(140px * 13)) {
+    .my-gallery figure {
+      height: calc(100vw / 13);
+      width: calc(100vw / 13);
+  }
+}
+@media only screen and (min-width: calc(140px * 13)) and (max-width: calc(140px * 14)) {
+    .my-gallery figure {
+      height: calc(100vw / 14);
+      width: calc(100vw / 14);
+  }
+}
+@media only screen and (min-width: calc(140px * 14)) and (max-width: calc(140px * 15)) {
+    .my-gallery figure {
+      height: calc(100vw / 15);
+      width: calc(100vw / 15);
+  }
+}
+@media only screen and (min-width: calc(140px * 15)) and (max-width: calc(140px * 16)) {
+    .my-gallery figure {
+      height: calc(100vw / 16);
+      width: calc(100vw / 16);
+  }
+}
+@media only screen and (min-width: calc(140px * 16)) and (max-width: calc(140px * 17)) {
+    .my-gallery figure {
+      height: calc(100vw / 17);
+      width: calc(100vw / 17);
+  }
+}
+@media only screen and (min-width: calc(140px * 17)) and (max-width: calc(140px * 18)) {
+    .my-gallery figure {
+      height: calc(100vw / 18);
+      width: calc(100vw / 18);
+  }
+}
+@media only screen and (min-width: calc(140px * 18)) and (max-width: calc(140px * 19)) {
+    .my-gallery figure {
+      height: calc(100vw / 19);
+      width: calc(100vw / 19);
+  }
+}
+@media only screen and (min-width: calc(140px * 19)) and (max-width: calc(140px * 20)) {
+    .my-gallery figure {
+      height: calc(100vw / 20);
+      width: calc(100vw / 20);
+  }
+}
+@media only screen and (min-width: calc(140px * 20)) and (max-width: calc(140px * 21)) {
+    .my-gallery figure {
+      height: calc(100vw / 21);
+      width: calc(100vw / 21);
+  }
+}
+@media only screen and (min-width: calc(140px * 21)) and (max-width: calc(140px * 22)) {
+    .my-gallery figure {
+      height: calc(100vw / 22);
+      width: calc(100vw / 22);
+  }
+}
+@media only screen and (min-width: calc(140px * 22)) and (max-width: calc(140px * 23)) {
+    .my-gallery figure {
+      height: calc(100vw / 23);
+      width: calc(100vw / 23);
+  }
+}
+@media only screen and (min-width: calc(140px * 23)) and (max-width: calc(140px * 24)) {
+    .my-gallery figure {
+      height: calc(100vw / 24);
+      width: calc(100vw / 24);
+  }
+}
+@media only screen and (min-width: calc(140px * 24)) and (max-width: calc(140px * 25)) {
+    .my-gallery figure {
+      height: calc(100vw / 25);
+      width: calc(100vw / 25);
+  }
+}
+@media only screen and (min-width: calc(140px * 25)) and (max-width: calc(140px * 26)) {
+    .my-gallery figure {
+      height: calc(100vw / 26);
+      width: calc(100vw / 26);
+  }
+}
+@media only screen and (min-width: calc(140px * 26)) and (max-width: calc(140px * 27)) {
+    .my-gallery figure {
+      height: calc(100vw / 27);
+      width: calc(100vw / 27);
+  }
+}
+@media only screen and (min-width: calc(140px * 27)) and (max-width: calc(140px * 28)) {
+    .my-gallery figure {
+      height: calc(100vw / 28);
+      width: calc(100vw / 28);
+  }
+}
+@media only screen and (min-width: calc(140px * 28)) and (max-width: calc(140px * 29)) {
+    .my-gallery figure {
+      height: calc(100vw / 29);
+      width: calc(100vw / 29);
+  }
+}
+@media only screen and (min-width: calc(140px * 29)) and (max-width: calc(140px * 30)) {
+    .my-gallery figure {
+      height: calc(100vw / 30);
+      width: calc(100vw / 30);
+  }
+}
+
+.my-gallery figcaption {
+  display: none;
+}
+
+footer {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.bottomgalleryname {
+  padding: 50px 0px 0px 0px;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Brush Script MT", cursive;
+}
+
+footer img {
+  width: auto;
+  height: 120px;
+}
