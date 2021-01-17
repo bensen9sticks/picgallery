@@ -16,4 +16,4 @@ You might want to specify your depth level depending on which folder depth you w
 The script doesn't touch your pictures it simply reads them and generates copies of smaller size to have your large XLR pictures optimized for web view.
 Finally the specified target directory needs to be hosted by a web-server to make the generated web-page visible in your browser, tablet or phone.
 
-This page is under construction and more details for install usage and configuration will come in the folioing days (15.01.2021)
+This page is under construction and more details for install usage and configuration will come in the folioing days (17.01.2021)
