@@ -16,6 +16,6 @@ You might want to specify your depth level depending on which folder depth you w
 The script doesn't touch your pictures it simply reads them and generates copies of smaller size to have your large XLR pictures optimized for web view.
 Finally the specified target directory needs to be hosted by a web-server to make the generated web-page visible in your browser, tablet or phone.
 
-The example gallery can be seen <a href="https://bensen9sticks.github.io/ExamplePicGallery.html" target="_blank" rel="noopener noreferrer">here</a> (https://bensen9sticks.github.io/ExamplePicGallery.html)
+The example gallery can be seen here: https://bensen9sticks.github.io/ExamplePicGallery.html
 
 This page is under construction and more details for install, usage and configuration will come in the following days (17.01.2021)
