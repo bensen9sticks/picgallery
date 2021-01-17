@@ -42,10 +42,10 @@
 # --------------------------------------------------------------- #
 
 # Mandatory inputs
-my $albumdepthlevel   = 1; # folder level below the source folder used to generate albums
-my $source_folder     = "/Volumes/Data SSD/Ben/Bilder/Events"; # Levels 1 # "/Volumes/Data SSD/Steffi/Fotos"; # Levels 2 # absolut root folder where all your picture are, finish without slash
-my $target_folder     = "/Applications/Fhem/www/picgal"; # absolut target folder of your webserver. SMB mount the folder in case you don't run the scripy on your server. In this folder a folder with your gallery name will be generate and a gallery_name.html to load the page.
-my $gallery_name_long = "Pic Gallery"; # name of your gallery
+my $albumdepthlevel   = 2; # folder level below the source folder used to generate albums
+my $source_folder     = "../ExampleGallerySource"; # Levels 1 # "/Volumes/Data SSD/Steffi/Fotos"; # Levels 2 # absolut root folder where all your picture are, finish without slash
+my $target_folder     = "../"; # absolut target folder of your webserver. SMB mount the folder in case you don't run the scripy on your server. In this folder a folder with your gallery name will be generate and a gallery_name.html to load the page.
+my $gallery_name_long = "Example Pic Gallery"; # name of your gallery
 my $googleapikey      = "YOURKEYHERE"; # insert your google API key here to enable the google maps feature
 my $uicolor           = boy; # choose between boy or girl
 
