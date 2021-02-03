@@ -3,9 +3,7 @@
     A browser based picture gallery for all your pictures in your archive
 </p>
 
-# Pic Gallery
-<b>A browser based picture gallery for all your pictures in your archive</b>
-
+## Pic Gallery
 For years I am collecting my pictures in a simple folder structure where each folder represent one event or album. I was always looking for a tool to look at my pictures quickly on multiple devices, maybe being even able to take them with me without the hurdle to copy them every where or upload all of the to a cloud.
 
 I developed a <b>perl script</b> that doesn't do much more than creating a web-page with my albums (the folder structure on my hard drive) that are search-able and selectable. Each album contains small thumbnails that are click able and open a nice full screen swipe interface to enjoy my pictures. It is designed to be fast and user friendly. The final result is easy to use in browsers, tables and phones.
@@ -23,7 +21,19 @@ Finally the specified target directory needs to be hosted by a web-server to mak
 
 The example gallery can be seen here: https://bensen9sticks.github.io/ExamplePicGallery.html
 
-This page is under construction and more details for install, usage and configuration will come in the following days (17.01.2021)
+<b>This page is under construction and more details for install, usage and configuration will come in the following days (17.01.2021)</b>
+
+## Dependencies
+- perl
+- some perl modules
+- a webserver e.g. nginx
+
+## Install
+- clone repo into your web directory (git clone https://github.com/bensen9sticks/picgallery/)
+- change config file to your needs (if you don't do anything the config file is setup to creat the exmaple gallery based on the example gallery folder)
+- execute perl script on the command line in LibPicGallery folder by:
+     perl picgallery.pm picgallery.conf
+- wait and than browse to the new .html file in the root directoy
 
 ## License
-Chart.js is available under the [MIT license](https://opensource.org/licenses/MIT).
+picgallery is available under the [MIT license](https://opensource.org/licenses/MIT).
