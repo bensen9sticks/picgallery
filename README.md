@@ -1,6 +1,10 @@
-<p align="center" font size="22" font face="Brush Script MT">
+<p align="center">
+ <font size="22">
+  <font face="Brush Script MT">
     <img height=120 src="https://github.com/bensen9sticks/picgallery/blob/main/LibPicGallery/picgallery_icon_top_g.png"><br/>
     <i>A browser based picture gallery for all your pictures in your archive</i>
+  </font face>
+ </font size>
 </p>
 
 # picgallery
