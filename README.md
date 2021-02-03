@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/bensen9sticks/picgallery/blob/main/LibPicGallery/picgallery_icon_top_b.png"><br/>
+    <img height="48" src="https://github.com/bensen9sticks/picgallery/blob/main/LibPicGallery/picgallery_icon_top_g.png"><br/>
     A browser based picture gallery for all your pictures in your archive
 </p>
 
