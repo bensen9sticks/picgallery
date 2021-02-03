@@ -1,13 +1,9 @@
 <p align="center">
- <font size="22">
-  <font face="Brush Script MT">
     <img height=120 src="https://github.com/bensen9sticks/picgallery/blob/main/LibPicGallery/picgallery_icon_top_g.png"><br/>
-    <i>A browser based picture gallery for all your pictures in your archive</i>
-  </font face>
- </font size>
+    A browser based picture gallery for all your pictures in your archive
 </p>
 
-# picgallery
+# Pic Gallery
 <b>A browser based picture gallery for all your pictures in your archive</b>
 
 For years I am collecting my pictures in a simple folder structure where each folder represent one event or album. I was always looking for a tool to look at my pictures quickly on multiple devices, maybe being even able to take them with me without the hurdle to copy them every where or upload all of the to a cloud.
