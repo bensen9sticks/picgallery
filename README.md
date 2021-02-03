@@ -21,5 +21,4 @@ The example gallery can be seen here: https://bensen9sticks.github.io/ExamplePic
 This page is under construction and more details for install, usage and configuration will come in the following days (17.01.2021)
 
 ## License
-
 Chart.js is available under the [MIT license](https://opensource.org/licenses/MIT).
