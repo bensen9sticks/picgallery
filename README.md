@@ -1,5 +1,5 @@
-<p align="center" style="font-size:22px; font-family:"Brush Script MT",cursive;">
-    <img style="height:120px" src="https://github.com/bensen9sticks/picgallery/blob/main/LibPicGallery/picgallery_icon_top_g.png"><br/>
+<p align="center" style="font-size:22px; font-family:'Brush Script MT',cursive;">
+    <img style="height:60px" src="https://github.com/bensen9sticks/picgallery/blob/main/LibPicGallery/picgallery_icon_top_g.png"><br/>
     A browser based picture gallery for all your pictures in your archive
 </p>
 
