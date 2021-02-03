@@ -1,10 +1,6 @@
 <p align="center">
-    <img height="48" src="https://github.com/bensen9sticks/picgallery/blob/main/LibPicGallery/picgallery_icon_top_g.png"><br/>
+    <img height="100" src="https://github.com/bensen9sticks/picgallery/blob/main/LibPicGallery/picgallery_icon_top_g.png"><br/>
     A browser based picture gallery for all your pictures in your archive
-</p>
-
-<p align="center">
-    <a>pic gal</a>
 </p>
 
 # picgallery
