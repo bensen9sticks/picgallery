@@ -1,7 +1,6 @@
 /*  PiGallery default CSS by Benjamin Neunstoecklin under MIT licence  */
 /*  Copyright (c) 2020-2021 Benjamin Neunstoecklin                     */
 
-
 /*  #0499E5  -  note for me on color for boys  */
 /*  #FF0090  -  note for me on color for girls */
 
@@ -24,6 +23,37 @@ pagehead {
   font-family: "Brush Script MT", cursive;
 }
 
+
+@media (orientation: landscape) {
+  .fctbut     { font-family: Arial, Helvetica, sans-serif; font-size: 10px; padding:  5px 0px 20px 0px; position: fixed; bottom: 0; background-color: white; opacity: 0.7; z-index: 5; }
+  .fctbut img { height: 30px; }
+}
+
+@media (orientation: portrait) {
+  .fctbut     { font-family: Arial, Helvetica, sans-serif; font-size: 20px; padding: 10px 0px 40px 0px; position: fixed; bottom: 0; background-color: white; opacity: 0.7; z-index: 5; }
+  .fctbut img { height: 60px; }
+}
+
+#TogOffPic  { left:  0%; width: 50%; }
+#Reload     { left: 50%; width: 50%; }
+#Reload img { -webkit-animation: spin 1s linear infinite; /* Safari */ animation: spin 0.75s ease-out 1; }
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
 .inputback {
   padding: 0px 20px 20px 20px;
 }
@@ -45,11 +75,11 @@ input {
 }
 
 input:hover{
-    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+  border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
 }
 
 input:focus{
-    border-color: #0499E5;
+  border-color: #0499E5;
 }
 
 .listbackg {
@@ -61,7 +91,7 @@ input:focus{
   display: block;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 0px;
   background-color: #777;
   color: white;
   cursor: pointer;
@@ -97,11 +127,6 @@ input:focus{
   width: 100%;
   margin: auto;
 }
-.my-gallery img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
 
 .my-gallery figure {
   box-sizing: border-box;
@@ -114,166 +139,179 @@ input:focus{
   width: 122px;
 }
 
+.my-gallery img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.my-gallery video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.linpic {
+}
+
+.linvid {
+}
+
+.linvfc {
+}
+
+.pic {
+}
+
+.vid {
+}
+
+.VideoIsFinalCut {
+  background-color: #FF0090;
+}
+
+video {          /*  ensures 100% size in popup  */
+  width: 100%;
+  height: 100%;
+}
+
+
+@media only screen and (min-width: calc(140px * 2)) and (max-width: calc(140px * 3)) {
+    .my-gallery figure { height: calc(100vw / 3); width: calc(100% / 3); }
+}
 @media only screen and (min-width: calc(140px * 3)) and (max-width: calc(140px * 4)) {
-    .my-gallery figure {
-      height: calc(100vw / 4);
-      width: calc(100vw / 4);
-  }
+    .my-gallery figure { height: calc(100vw / 4); width: calc(100% / 4); }
 }
 @media only screen and (min-width: calc(140px * 4)) and (max-width: calc(140px * 5)) {
-    .my-gallery figure {
-      height: calc(100vw / 5);
-      width: calc(100vw / 5);
-  }
+    .my-gallery figure { height: calc(100vw / 5); width: calc(100% / 5); }
 }
 @media only screen and (min-width: calc(140px * 5)) and (max-width: calc(140px * 6)) {
-    .my-gallery figure {
-      height: calc(100vw / 6);
-      width: calc(100vw / 6);
-  }
+    .my-gallery figure { height: calc(100vw / 6); width: calc(100% / 6); }
 }
 @media only screen and (min-width: calc(140px * 6)) and (max-width: calc(140px * 7)) {
-    .my-gallery figure {
-      height: calc(100vw / 7);
-      width: calc(100vw / 7);
-  }
+    .my-gallery figure { height: calc(100vw / 7); width: calc(100% / 7); }
 }
 @media only screen and (min-width: calc(140px * 7)) and (max-width: calc(140px * 8)) {
-    .my-gallery figure {
-      height: calc(100vw / 8);
-      width: calc(100vw / 8);
-  }
+    .my-gallery figure { height: calc(100vw / 8); width: calc(100% / 8); }
 }
 @media only screen and (min-width: calc(140px * 8)) and (max-width: calc(140px * 9)) {
-    .my-gallery figure {
-      height: calc(100vw / 9);
-      width: calc(100vw / 9);
-  }
+    .my-gallery figure { height: calc(100vw / 9); width: calc(100% / 9); }
 }
 @media only screen and (min-width: calc(140px * 9)) and (max-width: calc(140px * 10)) {
-    .my-gallery figure {
-      height: calc(100vw / 10);
-      width: calc(100vw / 10);
-  }
+    .my-gallery figure { height: calc(100vw / 10); width: calc(100% / 10); }
 }
 @media only screen and (min-width: calc(140px * 10)) and (max-width: calc(140px * 11)) {
-    .my-gallery figure {
-      height: calc(100vw / 11);
-      width: calc(100vw / 11);
-  }
+    .my-gallery figure { height: calc(100vw / 11); width: calc(100% / 11); }
 }
 @media only screen and (min-width: calc(140px * 11)) and (max-width: calc(140px * 12)) {
-    .my-gallery figure {
-      height: calc(100vw / 12);
-      width: calc(100vw / 12);
-  }
+    .my-gallery figure { height: calc(100vw / 12); width: calc(100% / 12); }
 }
 @media only screen and (min-width: calc(140px * 12)) and (max-width: calc(140px * 13)) {
     .my-gallery figure {
       height: calc(100vw / 13);
-      width: calc(100vw / 13);
+      width: calc(100% / 13);
   }
 }
 @media only screen and (min-width: calc(140px * 13)) and (max-width: calc(140px * 14)) {
     .my-gallery figure {
       height: calc(100vw / 14);
-      width: calc(100vw / 14);
+      width: calc(100% / 14);
   }
 }
 @media only screen and (min-width: calc(140px * 14)) and (max-width: calc(140px * 15)) {
     .my-gallery figure {
       height: calc(100vw / 15);
-      width: calc(100vw / 15);
+      width: calc(100% / 15);
   }
 }
 @media only screen and (min-width: calc(140px * 15)) and (max-width: calc(140px * 16)) {
     .my-gallery figure {
       height: calc(100vw / 16);
-      width: calc(100vw / 16);
+      width: calc(100% / 16);
   }
 }
 @media only screen and (min-width: calc(140px * 16)) and (max-width: calc(140px * 17)) {
     .my-gallery figure {
       height: calc(100vw / 17);
-      width: calc(100vw / 17);
+      width: calc(100% / 17);
   }
 }
 @media only screen and (min-width: calc(140px * 17)) and (max-width: calc(140px * 18)) {
     .my-gallery figure {
       height: calc(100vw / 18);
-      width: calc(100vw / 18);
+      width: calc(100% / 18);
   }
 }
 @media only screen and (min-width: calc(140px * 18)) and (max-width: calc(140px * 19)) {
     .my-gallery figure {
       height: calc(100vw / 19);
-      width: calc(100vw / 19);
+      width: calc(100% / 19);
   }
 }
 @media only screen and (min-width: calc(140px * 19)) and (max-width: calc(140px * 20)) {
     .my-gallery figure {
       height: calc(100vw / 20);
-      width: calc(100vw / 20);
+      width: calc(100% / 20);
   }
 }
 @media only screen and (min-width: calc(140px * 20)) and (max-width: calc(140px * 21)) {
     .my-gallery figure {
       height: calc(100vw / 21);
-      width: calc(100vw / 21);
+      width: calc(100% / 21);
   }
 }
 @media only screen and (min-width: calc(140px * 21)) and (max-width: calc(140px * 22)) {
     .my-gallery figure {
       height: calc(100vw / 22);
-      width: calc(100vw / 22);
+      width: calc(100% / 22);
   }
 }
 @media only screen and (min-width: calc(140px * 22)) and (max-width: calc(140px * 23)) {
     .my-gallery figure {
       height: calc(100vw / 23);
-      width: calc(100vw / 23);
+      width: calc(100% / 23);
   }
 }
 @media only screen and (min-width: calc(140px * 23)) and (max-width: calc(140px * 24)) {
     .my-gallery figure {
       height: calc(100vw / 24);
-      width: calc(100vw / 24);
+      width: calc(100% / 24);
   }
 }
 @media only screen and (min-width: calc(140px * 24)) and (max-width: calc(140px * 25)) {
     .my-gallery figure {
       height: calc(100vw / 25);
-      width: calc(100vw / 25);
+      width: calc(100% / 25);
   }
 }
 @media only screen and (min-width: calc(140px * 25)) and (max-width: calc(140px * 26)) {
     .my-gallery figure {
       height: calc(100vw / 26);
-      width: calc(100vw / 26);
+      width: calc(100% / 26);
   }
 }
 @media only screen and (min-width: calc(140px * 26)) and (max-width: calc(140px * 27)) {
     .my-gallery figure {
       height: calc(100vw / 27);
-      width: calc(100vw / 27);
+      width: calc(100% / 27);
   }
 }
 @media only screen and (min-width: calc(140px * 27)) and (max-width: calc(140px * 28)) {
     .my-gallery figure {
       height: calc(100vw / 28);
-      width: calc(100vw / 28);
+      width: calc(100% / 28);
   }
 }
 @media only screen and (min-width: calc(140px * 28)) and (max-width: calc(140px * 29)) {
     .my-gallery figure {
       height: calc(100vw / 29);
-      width: calc(100vw / 29);
+      width: calc(100% / 29);
   }
 }
 @media only screen and (min-width: calc(140px * 29)) and (max-width: calc(140px * 30)) {
     .my-gallery figure {
       height: calc(100vw / 30);
-      width: calc(100vw / 30);
+      width: calc(100% / 30);
   }
 }
 
