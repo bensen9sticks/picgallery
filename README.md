@@ -26,9 +26,9 @@ I developed a <b>perl script</b> that doesn't do much more than creating a web-p
 ## The Script
 The script in the "LibPicGallery folder" is written in perl and can be executed on any Linux system (I developed it on a OSX machine).
 
-Simply clone this repository to your computer that has perl installed change into the "LibPicGallery" folder and execute the scrip in your shell by typing:
+Simply clone this repository to your computer that has perl installed (and the above mentioned dependencies), change into the "LibPicGallery" folder and execute the scrip in your shell by typing:
 
-```perl picgallery.pm```
+```perl picgallery.pm picgallery.conf```
 
 Before you do so you must do some minimal configuration in the config file. Simply open the config file in your favorite editor and specify your source directory, where all your pictures are stored, and a target directory to generate the output. The latter would usually be in your web server directory.
 You might want to specify your depth level depending on which folder depth you want to use for your album manes. This means if you store your picture first by year, in folders like 2019, 2020, 2021 and you generate sub folders in there with the "album" or "event" name, where finally the pictures are stored, you choose depth level "2". This is how the example gallery folder (ExampleGallerySource) is setup. If you don't use the years and just have all events in one folder (inside your source directory) you would use depth level "1".
